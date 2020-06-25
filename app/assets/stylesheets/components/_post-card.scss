@@ -1,0 +1,49 @@
+.post-card{
+  h1, h2, h3, h4, h5, p {
+    margin: 0;
+  }
+  background-color: white;
+  margin: 20px 0;
+  padding: 36px 32px;
+}
+
+.post-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.post-title {
+  width: 50%;
+  font-family: $title-font;
+  h1 {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 900;
+  }
+  p {
+    color: $lt-grey;
+    font-size: 1.2rem;
+  }
+}
+
+.post-author {
+  display: flex;
+
+}
+
+.post-tag {
+  margin: 24px 0;
+}
+
+.post-body {
+  display: flex;
+}
+
+.post-img{
+  width: 240px;
+  height: 120px;
+  object-fit: cover;
+  margin-right: 30px;
+}

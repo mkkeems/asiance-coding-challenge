@@ -1,0 +1,38 @@
+.navbar {
+  height: 100px;
+  text-align: center;
+  font-family: $headers-font;
+  box-shadow: 0 0 5px 0px #dadadaab;
+
+  background-color: white;
+}
+
+.navheader{
+  padding-top: 16px;
+  padding-bottom: 12px;
+  font-size: 2.2rem;
+  font-weight: bolder;
+}
+
+.navmenu {
+  font-family: $navbar-font;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+
+  li {
+    display: inline-block;
+    font-size: 1em;
+    padding: 4px 14px;
+    margin: 0 4px;
+    border-bottom: 1.5px solid transparent;
+    color: $lt-grey;
+  }
+  li:hover, .active {
+    border-bottom: 1.5px solid black;
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+}

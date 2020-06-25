@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+  width: 100%;
+  font-family: $text-font;
+  background-color: $bg-grey;
+  position: relative;
+  padding-bottom: 3rem;
+}
+
+// footer position only lol
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
