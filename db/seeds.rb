@@ -110,7 +110,7 @@ authors = [ a, b, c, d ]
   post = Post.new(
     title: Faker::Movie.title,
     body: Faker::Movie.quote+Faker::Movie.quote+Faker::Movie.quote+Faker::Movie.quote+Faker::Movie.quote,
-    image_url: "https://source.unsplash.com/random?sig=#{rand(1..30)}",
+    image_url: "https://source.unsplash.com/collection/4961056/?sig=#{rand(1..30)}",
     tags: [Faker::Movies::HitchhikersGuideToTheGalaxy.planet, Faker::Movies::HitchhikersGuideToTheGalaxy.starship, Faker::Movies::HitchhikersGuideToTheGalaxy.character],
     author: authors.sample
   )
