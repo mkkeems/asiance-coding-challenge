@@ -39,6 +39,14 @@ d = Author.create!(
  location: "The Restaurant at the End of the Universe"
 )
 
+Post.create(
+  title: "Beautiful, Charming, Devastatingly Intelligent",
+  body: "After all, with a degree in maths and another in astrophysics what else was there to do? It was either that or the dole queue again on Monday.",
+  image_url: "https://i.pinimg.com/originals/ed/50/95/ed50953d815426fee9290cf8efdefa10.jpg",
+  tags: ["Trillian", "Human", "Tricia McMillan"],
+  author: d
+)
+
 Post.create!(
   title: Faker::Movies::HitchhikersGuideToTheGalaxy.unique.marvin_quote,
   body: Faker::Movies::HitchhikersGuideToTheGalaxy.quote,
