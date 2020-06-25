@@ -1,6 +1,6 @@
 # https://asiance-challenge-mk.herokuapp.com/
 
-check it there 👆👆👆
+check it here 👆👆👆
 
 A rails REST API app that uses vanilla javascript in the front.
 
