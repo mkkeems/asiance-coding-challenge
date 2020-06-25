@@ -2,7 +2,7 @@
 
 check it out 👆👆👆
 
-## A rails REST API app that uses simple html/scss/vanilla javascript for the front.
+## A rails back REST API app that uses simple html/scss/vanilla javascript for the front.
 
 Download the repo onto your local machine. Run "rails s" on your cli or check out the deployed version through the link above.
 Used Faker gem for seed data. Seeded some good old "Hitchhiker's guide to the galaxy" movie quotes and other sweet reminders.
