@@ -1,6 +1,7 @@
 body{
   margin: 0;
   width: 100%;
+  min-width: 480px;
   font-family: $text-font;
   background-color: $bg-grey;
   position: relative;
